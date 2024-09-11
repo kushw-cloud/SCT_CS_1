@@ -12,7 +12,7 @@ def encrypt(text, shift):
     return result
 
 def decrypt(text, shift):
-    return encrypt(text, -shift)  # Decryption is just encryption with a negative shift
+    return encrypt(text, -shift) 
 
 if __name__ == "__main__":
     mode = input("Choose mode (encrypt/decrypt): ")
